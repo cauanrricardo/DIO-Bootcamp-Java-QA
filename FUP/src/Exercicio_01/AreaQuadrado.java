@@ -1,4 +1,4 @@
-package Carro;
+package Exercicio_01;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Conta_Bancaria;
+package Exercicio_02;
 
 import java.time.OffsetDateTime;
 import java.util.Scanner;
