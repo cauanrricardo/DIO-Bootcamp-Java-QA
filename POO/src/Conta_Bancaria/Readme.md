@@ -1,4 +1,4 @@
-# Exercício 01: Simulação de Conta Bancária com Cheque Especial
+# Simulação de Conta Bancária com Cheque Especial
 
 ##  Objetivo
 
