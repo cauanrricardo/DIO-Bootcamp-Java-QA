@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FUP/Fundamentos/Estrutura_Controle/Estrutura_Controle.iml" filepath="$PROJECT_DIR$/FUP/Fundamentos/Estrutura_Controle/Estrutura_Controle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FUP/FUP.iml" filepath="$PROJECT_DIR$/FUP/FUP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exericios-dio-java.iml" filepath="$PROJECT_DIR$/exericios-dio-java.iml" />
+    </modules>
+  </component>
+</project>
