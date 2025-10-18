@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 /**
  * Classe principal responsável por exibir um menu interativo ao usuário,
- * gerenciar a entrada de dados e realizar operações em uma instância de {@link ContaBancaria}.
+ * gerenciar as entradas de dados e realizar operações em uma instância de {@link ContaBancaria}.
  * É a classe de execução do sistema bancário.
+ *
+ * <p>Permite ao usuário consultar saldo, realizar depósitos, saques, pagamentos
+ * e verificar o uso do cheque especial.</p>
  *
  * @author cauanricardoribeiro
  * @version 1.0
@@ -17,33 +20,34 @@ public class MenuInterativo {
 
     /**
      * Ponto de entrada principal da aplicação.
-     * Inicializa a conta bancária solicitando um depósito inicial e,
-     * em seguida, executa o loop do menu de operações.
+     * <p>Inicializa a conta bancária solicitando um depósito inicial
+     * e, em seguida, executa o loop do menu de operações.</p>
      *
-     * @param args Argumentos de linha de comando (não utilizados nesta aplicação).
+     * @param args argumentos de linha de comando (não utilizados nesta aplicação)
      */
     public static void main(String[] args) {
         System.out.println("--- BEM-VINDO ao Sistema Bancário  ---");
 
-        // 1. Criação da Conta Bancária (Deve ter depósito inicial)
+        // 1. Criação da Conta Bancária (deve ter depósito inicial)
         double depositoInicial = 0;
         while (depositoInicial <= 0) {
             System.out.print("Para começar, digite o valor do depósito inicial (mínimo R$0.01): R$ ");
-            if (scanner.hasNextDouble()) { //optei pelo hasNext pra ter mais robustez no programa, caso o usuaruo digite um tipo inesperado
+            if (scanner.hasNextDouble()) { // Verificação de tipo de entrada
                 depositoInicial = scanner.nextDouble();
                 if (depositoInicial <= 0) {
                     System.out.println("Valor inválido. Tente novamente.");
                 }
             } else {
                 System.out.println("Entrada inválida. Digite um número.");
-                scanner.next(); // Consome a entrada inválida
+                scanner.next(); // Limpa entrada incorreta
             }
         }
-        // A classe ContaBancaria é instanciada
-        conta = new ContaBancaria(depositoInicial);//;passado como argumento(o mesmo qeu esta no construtor)
+
+        // Instancia a conta bancária com o valor inicial
+        conta = new ContaBancaria(depositoInicial);
         System.out.println("\nConta criada com sucesso! Limite de Cheque Especial calculado.");
 
-        // 2. Loop principal do Menu
+        // 2. Loop principal do menu
         int opcao = -1;
         while (opcao != 0) {
             exibirMenu();
@@ -54,7 +58,7 @@ public class MenuInterativo {
                 processarOpcao(opcao);
             } else {
                 System.out.println("\nOpção inválida. Por favor, digite um número.");
-                scanner.next(); // Consome a entrada inválida
+                scanner.next(); // Limpa entrada incorreta
             }
         }
 
@@ -62,7 +66,7 @@ public class MenuInterativo {
     }
 
     /**
-     * Exibe o menu de opções disponíveis para a conta bancária no console.
+     * Exibe o menu de opções disponíveis no console.
      */
     private static void exibirMenu() {
         System.out.println("\n==================================");
@@ -80,9 +84,9 @@ public class MenuInterativo {
 
     /**
      * Processa a opção escolhida pelo usuário, chamando o método correspondente
-     * da {@link ContaBancaria} ou realizando uma ação de controle.
+     * da {@link ContaBancaria} ou exibindo mensagens de controle.
      *
-     * @param opcao O número da opção escolhida pelo usuário (0 a 6).
+     * @param opcao número da opção escolhida pelo usuário (0 a 6)
      */
     private static void processarOpcao(int opcao) {
         double valor;
@@ -131,7 +135,7 @@ public class MenuInterativo {
                 }
                 break;
             case 0:
-                // Sai do loop no main
+                // Sai do loop principal
                 break;
             default:
                 System.out.println("\nOpção inválida. Tente novamente.");
