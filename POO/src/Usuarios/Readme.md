@@ -5,6 +5,8 @@ Este projeto foi desenvolvido com o objetivo de praticar os conceitos de **Progr
 
 O sistema simula diferentes tipos de usuários (Gerente, Vendedor e Atendente) em um ambiente corporativo, demonstrando como cada um possui comportamentos e responsabilidades específicas herdadas de uma classe base (`Usuario`).
 
+Todo o código foi **documentado seguindo o padrão Javadoc**, descrevendo o propósito de cada classe, atributo e método.
+
 ---
 
 ## Estrutura das Classes
@@ -49,4 +51,8 @@ Durante a execução, o programa:
 4. Finaliza com o logoff do gerente.
 
 ---
+
+## Documentação
+O projeto foi totalmente comentado utilizando **Javadoc**, garantindo clareza na descrição das classes, métodos e parâmetros.  
+A documentação pode ser gerada automaticamente em formato HTML através do comando: `javadoc -d doc -author -version src/Usuarios/*.java` 
 
