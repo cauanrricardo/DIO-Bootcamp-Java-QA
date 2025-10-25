@@ -1,39 +1,12 @@
-# Marketing Services (POO)
+# Interfaces_e_Lambda
 
-Resumo
------
-Módulo Java com interfaces e implementações simples para envio de mensagens de marketing (Email, SMS, WhatsApp, Redes Sociais). Código demonstrativo que imprime a mensagem padrão no console.
+Descrição breve
+Este diretório contém exemplos e exercícios relacionados a interfaces e expressões lambda em Java. O objetivo é demonstrar conceitos de programação orientada a objetos (POO), programação funcional e a integração de interfaces funcionais com código imperativo.
 
-Estrutura
---------
-- `POO/src/Interfaces_e_Lambda/Marketing`
-    - `ServicoMensagem` (interface)
-    - `ServicoEmail`, `ServicoSms`, `ServicoWhatsApp`, `ServicoRedesSociais` (implementações)
-
-Principais classes
-------------------
-- `ServicoMensagem` — define a mensagem padrão e o contrato `enviarMensagem()`.
-- `ServicoEmail`, `ServicoSms`, `ServicoWhatsApp`, `ServicoRedesSociais` — implementam `ServicoMensagem` e simulam o envio imprimindo no console.
-
-Como compilar
--------------
-1. Posicione-se na raiz do projeto.
-2. Compile os fontes:
-    - `javac -d out POO/src/Interfaces_e_Lambda/Marketing/*.java`
-3. (Se houver uma classe `main`) execute com:
-    - `java -cp out fully.qualified.MainClass`
-
-Gerar a documentação Javadoc
----------------------------
-A documentação foi escrita em Javadoc para as classes do pacote. Para gerar a Javadoc localmente:
-- `javadoc -d docs POO/src/Interfaces_e_Lambda/Marketing/*.java`
-
-Observações
-----------
-- Código de exemplo; as implementações apenas simulam envio imprimindo `ServicoMensagem.mensagem`.
-- Javadoc foi adicionada aos arquivos do pacote `POO/src/Interfaces_e_Lambda/Marketing`.
-
-Metadados
----------
-- Autor: cauanricardoribeiro
-- Versão: 1.0
+Estrutura do diretório
+- Arquivos .java com exemplos de:
+  - definição e uso de interfaces
+  - herança de interfaces e interfaces default/static
+  - interfaces funcionais (ex.: Predicate, Function, Consumer) e criação de lambdas
+  - referências de método (method references)
+- Testes ou classes main para demonstrar execução dos exemplos (quando presentes)
