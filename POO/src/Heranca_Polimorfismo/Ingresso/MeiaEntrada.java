@@ -1,4 +1,4 @@
-package Ingresso;
+package Heranca_Polimorfismo.Ingresso;
 
 /**
  * Representa um ingresso do tipo meia-entrada, que possui valor reduzido pela metade.

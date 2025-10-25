@@ -1,4 +1,4 @@
-package Usuarios;
+package Heranca_Polimorfismo.Usuarios;
 
 /**
  * Classe principal responsável por demonstrar o funcionamento

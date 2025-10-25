@@ -1,4 +1,4 @@
-package Ingresso;
+package Heranca_Polimorfismo.Ingresso;
 
 /**
  * Representa um ingresso de cinema com informações sobre o valor,

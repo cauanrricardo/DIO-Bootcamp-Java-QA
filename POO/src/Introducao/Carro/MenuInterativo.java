@@ -1,7 +1,7 @@
 /**
  * Pacote contendo as classes de exercícios.
  */
-package Carro;
+package Introducao.Carro;
 
 import java.util.Scanner;
 

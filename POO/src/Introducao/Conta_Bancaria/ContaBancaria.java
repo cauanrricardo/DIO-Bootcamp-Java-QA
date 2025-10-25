@@ -1,7 +1,7 @@
 /**
  * Pacote contendo as classes de exercícios.
  */
-package Conta_Bancaria;
+package Introducao.Conta_Bancaria;
 
 /**
  * Representa uma conta bancária com funcionalidades básicas

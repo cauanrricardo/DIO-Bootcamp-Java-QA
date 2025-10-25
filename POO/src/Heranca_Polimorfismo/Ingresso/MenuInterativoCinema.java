@@ -1,4 +1,4 @@
-package Ingresso;
+package Heranca_Polimorfismo.Ingresso;
 
 import java.util.Scanner;
 

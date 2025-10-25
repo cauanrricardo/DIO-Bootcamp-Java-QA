@@ -1,4 +1,4 @@
-package Usuarios;
+package Heranca_Polimorfismo.Usuarios;
 
 /**
  * Representa um atendente do sistema.

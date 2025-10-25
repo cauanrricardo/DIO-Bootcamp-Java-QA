@@ -1,4 +1,4 @@
-package Ingresso;
+package Heranca_Polimorfismo.Ingresso;
 
 /**
  * Representa um ingresso do tipo familiar, que permite a compra para várias pessoas
