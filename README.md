@@ -16,3 +16,7 @@ O principal objetivo deste repositório é servir como portfólio e diário de b
 * **Quality Assurance (QA):** Testes unitários, de integração e boas práticas de qualidade de software.
 
 ---
+
+## Usando esse rep como anotações
+
+Varias issues forma cridas, para serem usadas como anotações, tudo essas issues foram contéudos q eu aprendi durante o bootcamp.
