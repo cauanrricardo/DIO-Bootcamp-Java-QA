@@ -5,7 +5,6 @@ Repositório dedicado aos estudos, atividades e projetos desenvolvidos durante o
 Este projeto documenta minha jornada de aprendizado, desde os fundamentos de lógica até a construção de APIs em Java e as práticas de testes de Quality Assurance.
 
 ---
-
 ## 🎯 Objetivo
 
 O principal objetivo deste repositório é servir como portfólio e diário de bordo para registrar meu desenvolvimento nas seguintes áreas:
